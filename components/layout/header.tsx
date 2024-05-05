@@ -48,83 +48,10 @@ export default function Header() {
           </Link>
         </div>
 
-        <div className="hidden sm:block flex justify-center">
-          <nav className="flex items-center space-x-6 text-sm font-medium">
-            <Link
-              href="/dashboard"
-              className={cn(
-                "transition-colors hover:text-foreground/80",
-                pathname === "/dashboard"
-                  ? "text-foreground"
-                  : "text-foreground/60"
-              )}
-            >
-              Dashboard
-            </Link>
-            <Link
-              href="#"
-              className={cn(
-                "transition-colors hover:text-foreground/80",
-                pathname?.startsWith("/docs/components")
-                  ? "text-foreground"
-                  : "text-foreground/60"
-              )}
-            >
-              Components
-            </Link>
-            <Link
-              href="#"
-              className={cn(
-                "transition-colors hover:text-foreground/80",
-                pathname?.startsWith("/themes")
-                  ? "text-foreground"
-                  : "text-foreground/60"
-              )}
-            >
-              Themes
-            </Link>
-            <Link
-              href="#"
-              className={cn(
-                "transition-colors hover:text-foreground/80",
-                pathname?.startsWith("/examples")
-                  ? "text-foreground"
-                  : "text-foreground/60"
-              )}
-            >
-              Examples
-            </Link>
-            <Link
-              href={"#"}
-              className={cn(
-                "hidden text-foreground/60 transition-colors hover:text-foreground/80 lg:block"
-              )}
-            >
-              GitHub
-            </Link>
-          </nav>
-        </div>
+       
 
         <div className="flex items-center justify-center hidden md:flex">
           <CommandMenu />
-
-          <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
-            <div className="flex items-center justify-center w-9 h-9">
-              <Icons.gitHub className="h-4 w-4" />
-              <span className="sr-only">GitHub</span>
-            </div>
-          </Link>
-
-          <Link
-            href={siteConfig.links.twitter}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="flex items-center justify-center w-9 h-9">
-              <Icons.twitter className="h-3 w-3 fill-current" />
-              <span className="sr-only">Twitter</span>
-            </div>
-          </Link>
 
           <TooltipProvider delayDuration={100}>
             <Tooltip>

@@ -1,9 +1,24 @@
 {
+  "/_not-found": "app/_not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/signin/page": "app/signin/page.js",
   "/page": "app/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/employee/[employeeId]/page": "app/dashboard/employee/[employeeId]/page.js",
+  "/dashboard/employee/page": "app/dashboard/employee/page.js",
+  "/dashboard/emptypage/page": "app/dashboard/emptypage/page.js",
   "/dashboard/overview/page": "app/dashboard/overview/page.js",
-  "/dashboard/products/page": "app/dashboard/products/page.js",
+  "/dashboard/addetails/page": "app/dashboard/addetails/page.js",
   "/dashboard/inbox/page": "app/dashboard/inbox/page.js",
+  "/dashboard/kanban/page": "app/dashboard/kanban/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/products/page": "app/dashboard/products/page.js",
+  "/dashboard/user/[userId]/page": "app/dashboard/user/[userId]/page.js",
+  "/dashboard/user/page": "app/dashboard/user/page.js",
   "/dashboard/chat/page": "app/dashboard/chat/page.js",
-  "/dashboard/settings/page": "app/dashboard/settings/page.js"
+  "/dashboard/chat/[username]/page": "app/dashboard/chat/[username]/page.js",
+  "/dashboard/profile/page": "app/dashboard/profile/page.js",
+  "/dashboard/settings/appearance/page": "app/dashboard/settings/appearance/page.js",
+  "/dashboard/settings/notifications/page": "app/dashboard/settings/notifications/page.js",
+  "/dashboard/settings/page": "app/dashboard/settings/page.js",
+  "/dashboard/settings/display/page": "app/dashboard/settings/display/page.js"
 }

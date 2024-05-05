@@ -107,9 +107,7 @@ export function CenterContent() {
           className="container mt-28 mb-32"
         >
           {" "}
-          <h2 className="text-zinc-500 text-center text-sm font-semibold uppercase">
-            Powered by
-          </h2>
+  
           <div className="text-zinc-500 my-7 flex flex-wrap items-center justify-center gap-10 gap-y-8 lg:gap-14">
             {features.map((feature) => (
               <Link
